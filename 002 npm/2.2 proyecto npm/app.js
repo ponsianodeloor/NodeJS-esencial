@@ -1,17 +1,7 @@
-function saludo(){
-    return "hola";
-}
+console.log("Buffer ", Buffer(10));
+console.log("Platform ", process.platform);
+console.log("execPath ", process.execPath);
+process.env.colorFavorito = "Rojo";
+console.log("env ", process.env.colorFavorito);
 
-let calculos = {
-    saludar: saludo(),
-    duplicar: function(valor){
-        return valor * 2;
-    },
-    dividir: function(valor){
-        return valor / 2;
-    }
-}
-console.log(saludo());
-console.log(calculos.saludar);
-console.log(calculos.duplicar(5));
-console.log(calculos.dividir(4));
+
