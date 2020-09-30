@@ -1,8 +1,17 @@
-let lista = ["uno", "dos", "tres"];
-console.log(lista[1]);
-
-let curso = {
-    tema: "Node",
-    leccion: "datos compuestos"
+function saludo(){
+    return "hola";
 }
-console.log(curso.leccion);
+
+let calculos = {
+    saludar: saludo(),
+    duplicar: function(valor){
+        return valor * 2;
+    },
+    dividir: function(valor){
+        return valor / 2;
+    }
+}
+console.log(saludo());
+console.log(calculos.saludar);
+console.log(calculos.duplicar(5));
+console.log(calculos.dividir(4));
