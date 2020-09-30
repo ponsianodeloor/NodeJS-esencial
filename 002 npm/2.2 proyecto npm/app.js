@@ -1,8 +1,8 @@
-var nombre = "Teodoro";
-console.log(nombre);    
-nombre = 10;
-console.log(nombre);
-nombre = true;
-console.log(nombre);
-    
-    
+let lista = ["uno", "dos", "tres"];
+console.log(lista[1]);
+
+let curso = {
+    tema: "Node",
+    leccion: "datos compuestos"
+}
+console.log(curso.leccion);
