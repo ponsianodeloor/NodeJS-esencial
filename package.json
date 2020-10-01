@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ponsianodeloor/NodeJS-esencial#readme",
   "dependencies": {
-    "moment": "^2.29.0"
+    "moment": "^2.29.0",
+    "nodemon": "^2.0.4"
   }
 }
