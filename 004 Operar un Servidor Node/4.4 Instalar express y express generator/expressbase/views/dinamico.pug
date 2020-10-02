@@ -5,5 +5,9 @@ block content
   p Welcome to #{title}
   p
     a(href="https://apptics.com.ec") AppTics
-  p Parametro uno #{datos.parametroURL1}
-  p Parametro dos #{datos.parametroURL2}
+  
+  if datos
+    p Parametro uno #{datos.parametroURL1}
+    p Parametro dos #{datos.parametroURL2}
+  else
+    p usuario no encontrado  
